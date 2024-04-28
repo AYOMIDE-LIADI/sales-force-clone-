@@ -149,10 +149,7 @@ body {
   margin: 0 auto;
   gap: 15px;
 }
-.grid{
-  /* background-color:red; */
-  /* border-radius: 15px; */
-}
+
 .background{
   background-image: url(../images/salesforce_images/latest-boost_customers.jpg);
   background-repeat: no-repeat;
@@ -512,9 +509,7 @@ body {
   display: grid;
   margin-top: 60px;
 }
-.top1{
 
-}
 .backgrounddddd{
   background-image: url(../images/salesforce_images/events1.webp);
   background-position: center;
