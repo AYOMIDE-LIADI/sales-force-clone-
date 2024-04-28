@@ -1,0 +1,787 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+.navigation .nav_left a {
+  text-decoration: none;
+  color: #032d60;
+}
+.nav_right li img {
+  width: 20px;
+}
+.nav_logo a img {
+  width: 60px;
+}
+.nav_left,
+.nav_right {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+.nav_left li a:hover {
+  color: #0176d3;
+}
+.nav_right_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav_right_link a {
+  color: #032d60;
+  text-decoration: none;
+}
+.nav_right_contact a {
+  color: #032d60;
+  text-decoration: underline;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.nav_right_try a {
+  padding: 10px 30px;
+  background-color: #2e844a;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.second_nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: #06a59a;
+  color: white;
+  padding: 10px 0;
+  margin-top: 76px;
+}
+.second_nav img {
+  width: 120px;
+}
+.second_nav a {
+  color: white;
+}
+
+.holder{
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/bg_img.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.tool{
+  width: 600px;
+}
+.writeup{
+  font-size: 45px;
+  color:#032D60;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+.info{
+  font-size: 15px;
+  margin-left: 120px;
+}
+.buttons{
+ margin-left: 110px;
+ margin-top: 20px;
+}
+.first:hover{
+    color:white;
+    border-color: #021a38;
+    background-color: #021a38;
+}
+.second:hover{
+  border-color: black;
+  color: black;
+  background-color: #9aaabe;
+}
+.but1{
+  padding: 9px 15px;
+  margin-left: 10px;
+}
+.first{
+  background-color: rgb(1,118,211);
+  color: white;
+  border: none;
+}
+.second{
+  border-color:  rgb(1,118,211);
+}
+.secondimage{
+  height: 100px;
+  display: flex;
+}
+.text{
+  text-align: center;
+  color: #032d60;
+  margin-top: 40px;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.gridholder{
+  width: 90%;
+  height: 370px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 0 auto;
+  gap: 15px;
+}
+.grid{
+  /* background-color:red; */
+  /* border-radius: 15px; */
+}
+.background{
+  background-image: url(../images/salesforce_images/latest-boost_customers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 160px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.grid p{
+  color:#032D60;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.grid a{
+  color:#032D60;
+}
+.column2{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; 
+}
+.firsthover:hover{
+  text-decoration: none;
+  color: #0176d3;
+}
+.hover:hover{
+  color: #0176d3;
+}
+.background2{
+  background-image: url(../images/salesforce_images/latest-forrester.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.background3{
+  background-image: url(../images/salesforce_images/latest-gartner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.background4{
+  background-image: url(../images/salesforce_images/latest-discover_ai.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.middleheader p{
+  margin-top: 25px;
+  text-align: center;
+}
+.middleheader a:hover{
+  color: black;
+  text-decoration: none;
+}
+.textwithouthref{
+  font-size: 30px;
+  color: #032D60;
+}
+.flexholder{
+  padding: 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  
+}
+.flexholderfirstwriteup{
+  padding-top: 20px;
+}
+.flexholderfirstwriteup p{
+  padding-bottom: 15px;
+}
+.bluetext{
+  color: #032D60;
+}
+.flexholderfirstwriteup a:hover{
+  color: #0176d3;
+  text-decoration: none;
+}
+.smallertext{
+  font-size: 13px;
+}
+.smallimagesandtextholder{
+  text-align: center;
+  margin-top: 30px;
+}
+.littletext{
+  margin-top: 20px;
+}
+.firstbutton:hover{
+  color: black;
+  border-color: black;
+  background-color: #EAF5FE;
+}
+.smallimagesandtextholder button{
+  margin-top: 25px;
+  border-color: #0176d3;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #0176d3;
+}
+.smallimage{
+  border-radius: 200px;
+  border-color: black;
+}
+.smallimageholder{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-wrap: wrap;
+  gap: 60px;
+  margin-top: 40px;
+}
+.smallimage:hover{
+  color: #0176d3;
+}
+.styletext{
+  color: #032D60;
+  font-size: 13px;
+}
+.styletext:hover{
+  color: #0176d3;
+}
+.anotherheader{
+  text-align: center;
+}
+.secondbutton{
+  margin-left: 540px;
+  margin-top: 40px;
+  color: #0176d3;
+  border-color: #0176d3;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.secondbutton:hover{
+  color: black;
+  background-color: #EAF5FE;
+  border-color: black;
+}
+.fivecontentholder{
+  width: 1000px;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin: 0 auto;
+  margin-top: 40px;
+  gap: 20px;
+}
+.content{
+  border-radius: 15px;
+}
+.oneheader{
+  text-align: center;
+  color: #032D60;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.subheader{
+  text-align: center;
+  margin-top: 20px;
+}
+.threegridholder{
+  width: 90%;
+  height: 400px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  display: grid;
+  margin-top: 60px;
+}
+.firstt{
+  background-color:rgb(242, 236, 236);
+  border-radius: 15px;
+  padding: 20px;
+}
+.butt{
+  border-radius: 20px;
+  padding: 7px 7px;
+  color: #032D60;
+  background-color:#D2EDFF ;
+  border-style: none;
+  margin-bottom: 10px;
+}
+.sales{
+  color: #032D60;
+  font-size: 20px;
+  text-decoration: none;
+}
+.learn{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.Start{
+  color: #032D60;
+}
+.Start:hover{
+  text-decoration: none;
+}
+.button2{
+  margin-top: 80px;
+  margin-left: 600px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border-color: #0176d3;
+  color: #0176d3;
+  background-color: transparent;
+}
+.button2:hover{
+  color: black;
+  border-color: black;
+  background-color: #EAF5FE;
+}
+.all{
+  margin-top: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #032D60;
+  margin-bottom: 80px;
+}
+.twogridholder{
+  width: 100%;
+  height: 300px;
+  grid-template-columns: repeat(2, 1fr);
+  /* background-color: red; */
+  gap: 20px;
+  margin: 0 auto;
+  display: grid;
+}
+.twogrid{
+  /* background-color:blue; */
+  padding: 20px;
+}
+.crm{
+  color: #032D60;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.about{
+ margin-left: 60px;
+ margin-bottom: 35px;
+}
+.Discorver{
+  margin-left: 60px;
+  padding: 11px 20px;
+  border-radius: 5px;
+  border-color: #0176d3;
+  color: #0176d3;
+}
+.Discorver:hover{
+  color: black;
+  border-color: black;
+  background-color: #EAF5FE;
+}
+
+.majorholder{
+  width: 90%;
+  height: 850px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0 auto;
+  margin-top: 100px;
+  background-image: url(../images/salesforce_images/hills.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.minorholder{
+  background-color: rgb(242, 236, 236);
+  border-radius: 20px;
+  height: 450px;
+}
+.backgroundd{
+  background-image: url(../images/salesforce_images/report.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 165px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.buttt{
+  border-radius: 30px;
+  border-style: none;
+  padding: 3px 5px;
+  background-color:#D2EDFF;
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.gri{
+  padding: 20px;
+}
+.late{
+  color: #032D60;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.unclassed:hover{
+  text-decoration: none;
+  color: #0176d3;
+}
+.late :hover{
+  color:#0176D3;
+}
+.gri a{
+  color: #032D60;
+}
+.how{
+  margin-bottom: 60px;
+}
+.backgrounddd{
+  background-image: url(../images/salesforce_images/video\ series.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 165px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.howw{
+  margin-bottom: 39px;
+}
+.backgroundddd{
+  background-image: url(../images/salesforce_images/webinar.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 165px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.headerr{
+    margin-top: 0px;
+    color: #032D60;
+    font-size: 30px;
+    text-align: center;
+}
+.topgird{
+  width: 90%;
+  height:400px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  display: grid;
+  margin-top: 60px;
+}
+.top1{
+
+}
+.backgrounddddd{
+  background-image: url(../images/salesforce_images/events1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.linkk{
+  color: #032D60;
+  margin-top: 70px;
+}
+.pad{
+  padding: 20px;
+  background-color: rgb(240, 235, 235);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 200px;
+}
+.immerse{
+  margin-bottom: 30px;
+}
+.linkk:hover{
+  color: #0176d3;
+  text-decoration: none;
+}
+.immerse :hover{
+  color: #0176D3;
+}
+.backgroundddddd{
+  background-image: url(../images/salesforce_images/event2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.backgrounddddddd{
+  background-image: url(../images/salesforce_images/event3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.meet{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+  color: #032D60;
+  margin-bottom: 50px;
+}
+.twodivholder{
+  width: 80%;
+  height: 250px;
+  gap: 30px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+.imageless{
+  padding: 15px 20px;
+  background-color: rgb(240, 235, 235);
+  height: 180px;
+  margin-top: 30px;
+  border-radius: 20px;
+  
+}
+.salescloud{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #032D60;
+}
+.salescloudd{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #032D60;
+  text-decoration: none;
+}
+.salesclou{
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #032D60;
+  text-decoration: none;
+}
+.linkkk{
+  margin-top: 30px;
+}
+.Trailb{
+  margin-top: 80px;
+  margin-left: 500px;
+  margin-bottom: 70px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border-color: #0176d3;
+  color: #0176d3;
+  background-color: transparent;
+  font-size: 17px;
+}
+.Trailb:hover{
+  background-color: black;
+  color: black;
+  background-color: #EAF5FE;
+}
+.bigpicture{
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+.paddeddiv{
+  padding: 30px;
+  margin-top: 95px;
+}
+.paddeddiv p b {
+  font-size: 30px;
+  color: #032D60;
+  
+}
+.paddeddiv p{
+  font-size: 15px;
+  margin-top: 20px;
+}
+.Visitbutton{
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #0176d3;
+  border-radius: 5px;
+  border-color: #0176d3;
+}
+.Visitbutton:hover{
+  border-color: black;
+  color: black;
+  background-color: #EAF5FE;
+}
+.subheaderr{
+  text-align: center;
+  margin: 70px 0;
+  font-size: 30px;
+  color: #032D60;
+}
+.lastgridholder{
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  background-image: url(images/salesforce_images/footer1.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.last{
+  background-color: rgb(238, 229, 229);
+  padding: 30px ;
+  border-radius: 15px;
+  height: 300px;
+  width: 90%;
+  margin-left: 30px;
+}
+.imagecarrier{
+  height: 50px;
+  width: 50px;
+  border-radius: 70px;
+  background-color: #D2EDFF;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.last p b{
+  color: #032D60;
+  font-size: 30px;
+}
+.last p{
+  margin: 30px 0;
+}
+.last a{
+  color: #032D60;
+}
+.removedecor:hover{
+  color: #0176d3;
+  text-decoration: none;
+}
+.telll{
+  margin: 25px 0;
+}
+.lastflexholder{
+  width: 80%;
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  gap: 90px;
+}
+.lastflexholder img{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  
+}
+.num{
+  margin-bottom: 30px;
+}
+.hreff{
+  color: #032D60;
+}
+.nineatagholder{
+  margin-top: 40px;
+}
+.nineatagholder p a {
+  margin-bottom: 20px;
+}
+.tosales{
+  margin-bottom: 40px;
+}
+.sales {
+  margin: 20px 0;
+  color: #0176d3;
+  font-size: 13px; 
+}
+.footer{
+  background-color: #032E61;
+  height: 140px;
+  padding: 20px 170px;
+  display: flex;
+  gap: 40px;
+}
+.worldd{
+  text-decoration: none;
+}
+.footer p{
+  color: #FFFFFF;
+}
+.footer0{
+  display: flex;
+  gap: 20px;
+}
+.footer2 p{
+  color: white;
+  font-size: 13px;
+  margin-top: 20px;
+ 
+}
+.footer2 ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 12px;
+  
+}
+.footer2 a{
+  color: white;
+}
+.eli{
+  margin-top: 10px;
+}
+.eli:hover{
+  color: #0176d3;
+}
+.pin:hover{
+  color: #0176d3;
+}
+.hov :hover{
+  color: #0176d3;
+}
+.footer2 p{
+  font-size: 12px;
+}
